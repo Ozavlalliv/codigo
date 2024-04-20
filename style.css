@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Playfair", serif;
+  min-height: 300vh;
+  background-color: gray;
+}
+header {
+  background-color: black;
+  color: white;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.navBar {
+  min-height: 10vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  width: 50%;
+  font-size: 1rem;
+}
+.navLinks {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.navLinks li {
+  list-style-type: none;
+  cursor: pointer;
+}
+.navLinks a {
+  text-decoration: none;
+  cursor: white;
+} 
+.navLinks li :hover {
+  color: gray;
+}
+.section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.1rem solid gray;
+}
+
+.home {
+  color: white;
+}
+
+.about{
+  color: white;
+}
+
+.contact{
+  color: white;
+}
+
+.service{
+  color:white;
+}
+
+.projects{
+  color:white;
+}
+
